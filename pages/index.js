@@ -13,19 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <iframe title="backgroun dvisual" src="../index.html" overflow="hidden" border="none" height="800vh" width="100%" display="flex"></iframe>
+      <iframe rel="preconnect" title="backgroun dvisual" src="../index.html" overflow="hidden" border="none" height="800vh" width="100%" display="flex"></iframe>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer preconnect"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+        <a>
+          Meow
         </a>
       </footer>
     </Container>

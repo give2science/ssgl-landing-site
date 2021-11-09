@@ -8,7 +8,7 @@ onmessage = function(m) {
 
   if(m.data.isInit) {
 
-    var satData = JSON.parse(JSON.minify(m.data.satData));
+    var satData = JSON.parse(m.data.satData);
 
     for(var i=0; i < satData.length; i++) {
       satCache[i] = satellite.twoline2satrec(
