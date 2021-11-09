@@ -5,7 +5,7 @@ exports.id = 660;
 exports.ids = [660];
 exports.modules = {
 
-/***/ "./node_modules/next/dist/client/head-manager.js":
+/***/ 7:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -120,7 +120,7 @@ function initHeadManager() {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/client/request-idle-callback.js":
+/***/ 311:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -148,7 +148,7 @@ exports.cancelIdleCallback = cancelIdleCallback; //# sourceMappingURL=request-id
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/client/script.js":
+/***/ 699:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -157,10 +157,10 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports.initScriptLoader = initScriptLoader;
 exports["default"] = void 0;
-var _react = _interopRequireWildcard(__webpack_require__("react"));
-var _headManagerContext = __webpack_require__("../shared/lib/head-manager-context");
-var _headManager = __webpack_require__("./node_modules/next/dist/client/head-manager.js");
-var _requestIdleCallback = __webpack_require__("./node_modules/next/dist/client/request-idle-callback.js");
+var _react = _interopRequireWildcard(__webpack_require__(689));
+var _headManagerContext = __webpack_require__(796);
+var _headManager = __webpack_require__(7);
+var _requestIdleCallback = __webpack_require__(311);
 function _defineProperty(obj, key, value) {
     if (key in obj) {
         Object.defineProperty(obj, key, {
@@ -375,7 +375,7 @@ exports["default"] = _default; //# sourceMappingURL=script.js.map
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_document.js":
+/***/ 105:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -403,14 +403,14 @@ Object.defineProperty(exports, "DocumentProps", ({
 exports.Html = Html;
 exports.Main = Main;
 exports["default"] = void 0;
-var _react = _interopRequireWildcard(__webpack_require__("react"));
-var _constants = __webpack_require__("../shared/lib/constants");
-var _utils = __webpack_require__("../shared/lib/utils");
-var _getPageFiles = __webpack_require__("../server/get-page-files");
-var _utils1 = __webpack_require__("../server/utils");
-var _htmlescape = __webpack_require__("../server/htmlescape");
-var _script = _interopRequireDefault(__webpack_require__("./node_modules/next/dist/client/script.js"));
-var _isError = _interopRequireDefault(__webpack_require__("./node_modules/next/dist/lib/is-error.js"));
+var _react = _interopRequireWildcard(__webpack_require__(689));
+var _constants = __webpack_require__(724);
+var _utils = __webpack_require__(232);
+var _getPageFiles = __webpack_require__(140);
+var _utils1 = __webpack_require__(368);
+var _htmlescape = __webpack_require__(716);
+var _script = _interopRequireDefault(__webpack_require__(699));
+var _isError = _interopRequireDefault(__webpack_require__(676));
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -951,29 +951,7 @@ function getAmpPath(ampPath, asPath) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_document.web.js":
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-exports["default"] = Document;
-var _react = _interopRequireDefault(__webpack_require__("react"));
-var _document = __webpack_require__("./node_modules/next/dist/pages/_document.js");
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        default: obj
-    };
-}
-function Document() {
-    return(/*#__PURE__*/ _react.default.createElement(_document.Html, null, /*#__PURE__*/ _react.default.createElement(_document.Head, null), /*#__PURE__*/ _react.default.createElement("body", null, /*#__PURE__*/ _react.default.createElement(_document.Main, null), /*#__PURE__*/ _react.default.createElement(_document.NextScript, null))));
-} //# sourceMappingURL=_document.web.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/lib/is-error.js":
+/***/ 676:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -989,49 +967,49 @@ function isError(err) {
 
 /***/ }),
 
-/***/ "../server/get-page-files":
+/***/ 140:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/get-page-files.js");
 
 /***/ }),
 
-/***/ "../server/htmlescape":
+/***/ 716:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/htmlescape.js");
 
 /***/ }),
 
-/***/ "../server/utils":
+/***/ 368:
 /***/ ((module) => {
 
 module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
 
-/***/ "../shared/lib/constants":
+/***/ 724:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/constants.js");
 
 /***/ }),
 
-/***/ "../shared/lib/head-manager-context":
+/***/ 796:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ "../shared/lib/utils":
+/***/ 232:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ "react":
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
@@ -1045,7 +1023,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./node_modules/next/dist/pages/_document.web.js"));
+var __webpack_exports__ = (__webpack_exec__(105));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,1 +1,0 @@
-self.__RSC_MANIFEST={"/Users/n/work/site/ssgl/node_modules/next/image.js":{"":{id:"./node_modules/next/image.js",name:"",chunks:[]},"*":{id:"./node_modules/next/image.js",name:"*",chunks:[]},"__esModule":{id:"./node_modules/next/image.js",name:"__esModule",chunks:[]},"default":{id:"./node_modules/next/image.js",name:"default",chunks:[]}}}
