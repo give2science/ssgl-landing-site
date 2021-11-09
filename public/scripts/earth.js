@@ -69,7 +69,6 @@ earth.init = function() {
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT	);
-    console.log('earth.js loaded texture');
     texLoaded = true;
     onImageLoaded();
   };
@@ -84,7 +83,6 @@ earth.init = function() {
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
     gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT	);
-    console.log('earth.js loaded nightearth');
     nightLoaded = true;
     onImageLoaded();
   };
@@ -165,7 +163,7 @@ earth.init = function() {
 
 
   var end = new Date().getTime() - startTime;
-  console.log('earth init: ' + end + ' ms');
+  // console.log('earth init: ' + end + ' ms');
 };
 
 earth.draw = function(pMatrix, camMatrix) {

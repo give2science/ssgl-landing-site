@@ -117,13 +117,13 @@ $(document).ready(function() {
       var key = params[i].split('=')[0];
       var val = params[i].split('=')[1];
       if(key === 'intldes') {
-        console.log('url snapping to ' + val);
+        // console.log('url snapping to ' + val);
         var urlSatId = satSet.getIdFromIntlDes(val.toUpperCase());
         if(urlSatId !== null) {
           selectSat(urlSatId);
         }
       } else if (key === 'search') {
-        console.log('preloading search to ' + val);
+        // console.log('preloading search to ' + val);
         searchBox.doSearch(val);
         $('#search').val(val);
       }

@@ -17,9 +17,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a>
           Meow
-        </a>
       </footer>
     </Container>
   )

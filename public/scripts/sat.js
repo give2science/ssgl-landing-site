@@ -67,7 +67,7 @@
         satData[i].period = satExtraData[i].period;
       }
 
-      console.log('sat.js copied extra data in ' + (performance.now() - start) + ' ms');
+      // console.log('sat.js copied extra data in ' + (performance.now() - start) + ' ms');
       gotExtraData = true;
       return;
     }
@@ -112,8 +112,6 @@
     $.get('data/TLE.json', function(resp) {
       var startTime = new Date().getTime();
 
-
-      console.log('sat.js downloaded data');
       $('#loader-text').text('Crunching numbers...');
 
       satData = resp;
@@ -163,7 +161,7 @@
    //  satSet.setColorScheme(ColorScheme.velocity);
 
        var end = new Date().getTime();
-      console.log('sat.js init: ' + (end - startTime) + ' ms (incl post: ' + (postEnd - postStart) + ' ms)');
+      // console.log('sat.js init: ' + (end - startTime) + ' ms (incl post: ' + (postEnd - postStart) + ' ms)');
 
       shadersReady = true;
       if(satsReadyCallback) {

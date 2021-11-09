@@ -42,7 +42,7 @@ onmessage = function(m) {
   postMessage({
     extraData : JSON.stringify(extraData),
   });
-  console.log('sat-cruncher init: ' + (Date.now() - start) + ' ms  (incl post: ' + (Date.now() - postStart) + ' ms)');
+  // console.log('sat-cruncher init: ' + (Date.now() - start) + ' ms  (incl post: ' + (Date.now() - postStart) + ' ms)');
   propagate();
 };
 
