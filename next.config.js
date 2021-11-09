@@ -3,9 +3,4 @@ module.exports = {
     locales: ['en-US'],
     defaultLocale: 'en-US',
   },
-  reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    concurrentFeatures: true
-  },
 }
