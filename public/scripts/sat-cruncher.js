@@ -7,7 +7,6 @@ var satPos, satVel, satAlt;
 
 onmessage = function(m) {
   var start = Date.now();
-
   var satData = JSON.parse(m.data);
   var len = satData.length;
 
